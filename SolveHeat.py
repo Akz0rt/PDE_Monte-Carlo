@@ -53,7 +53,7 @@ if __name__ == '__main__':
     a = 1.32
     dt = 0.01
     t = float(input("Розв'язок шукається у момент часу: "))
-    M = 500
+    M = 100000
     n = len(solve_heat(l, dt, t))
     X = np.empty(shape=(M,n))
     E = []

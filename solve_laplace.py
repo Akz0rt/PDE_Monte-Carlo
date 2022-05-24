@@ -88,7 +88,7 @@ if __name__ == '__main__':
     h = 10
     a = 1.32
     
-    M = 100
+    M = 100000
     n = len(solve_heat(l,h))
     E = np.zeros((l+1,h+1))
     for i in range(M):
