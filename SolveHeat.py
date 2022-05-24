@@ -40,10 +40,7 @@ def solve_heat(l, dt, t, a=1):
             X_ar[-1] = l
         X.append(T[-1])
     return X
- 
-                
-
-                    
+                  
 
 if __name__ == '__main__':
     start = input('Введіть вираз, що описує початковий розподіл температури: ')
